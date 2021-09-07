@@ -30,8 +30,9 @@ mounted() {
     async getData() {
       try {
         const response = await this.$http.get(
-              `http://jsonplaceholder.typicode.com/posts`
+              `https://secure-refuge-14993.herokuapp.com/list_users`
         );
+        console.log(response)
         // JSON responses are automatically parsed.
         this.posts = response.data;
       } catch (error) {

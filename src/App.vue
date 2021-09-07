@@ -1,16 +1,19 @@
 <template>
   <div id="app">
-    <HomePage />
+    <!-- <HomePage /> -->
+    <PostMethods />
   </div>
 </template>
 
 <script>
-import HomePage from './components/HomePage.vue'
+// import HomePage from './components/HomePage.vue'
+import PostMethods from './components/PostMethods.vue'
 
 export default {
   name: 'App',
   components: {
-    HomePage
+    // HomePage,
+    PostMethods
   }
 }
 </script>
